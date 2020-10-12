@@ -1,28 +1,11 @@
 body {
     font-family: Calibri, sans-serif;
-    color: black;
+    color: black
     font-size: 18px;
-
 }
 
-header h1, footer{
+h1 {
     background-color: rgb(199, 197, 166);
-}
-
-.site-title {
-    color: rgb(32, 139, 56);
-}
-
-#my-image {
-    box-shadow: 0 0 2px 1px black;
-}
-
-ul li {
-  list-style: square; 
-}
-
-nav ul li {
-    list-style: none;
 }
 
 nav ul li a {
@@ -33,12 +16,19 @@ nav ul li a {
     box-shadow: 1px 1px 2px 1px rgb(151, 150, 150);
 }
 
-article ul li:nth-child(odd){
-    background-color: rgb(201, 158, 194);
+nav ul li {
+   list-style: none; 
 }
 
 nav ul li a:hover,
 nav ul li a:focus {
-    background-color: lightsalmon;
+    background-color: lightsalmon;;
 }
 
+.shadow-link {
+    box-shadow: 2px 2px 4px 3px grey;
+}
+
+article h2 {
+    color: rgb(32, 139, 56)
+}
