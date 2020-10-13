@@ -1,6 +1,6 @@
 body {
     font-family: Calibri, sans-serif;
-    color: black
+    color: black;
     font-size: 18px;
 }
 
@@ -30,5 +30,12 @@ nav ul li a:focus {
 }
 
 article h2 {
-    color: rgb(32, 139, 56)
+    color: rgb(32, 139, 56);
+    font-style: underline;
+}
+
+.yellow-back {
+    color: rgb(204, 84, 37);
+    font-size: 18px;
+    box-shadow: 1px 1px 2px 1px rgb(151, 150, 150);
 }
