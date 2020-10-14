@@ -1,6 +1,7 @@
 body{
   font-family: Arial, sans-serif;
   color: darkslategray;
+  background-image: url("../images/white_brick_wall.png");
 }
 
 h1{
@@ -25,6 +26,7 @@ list-style: none;
 nav ul a{
     color: darkslategray;
     text-decoration: none;
+    font-size: 1.75rem;
 }
 
 .orange-link{
@@ -33,7 +35,19 @@ nav ul a{
     text-decoration: none;
 }
 #tow{
-    background: orange;
+    background: orange url(../images/bread.jpg) no-repeat center center;
+    background-size: cover;
+    /* adding styles to make text readable */
+    color: white;
+    /* font size: 24px */
+    /* updating font size to rem */
+    font-size: 1.5rem;
+    /* 1.5rem - 1.5 . 16px = 24px */
+
+    /* adding padding to add space between the borther */
+    padding: 1em;
+    /* 1em = 1 . 24px = 24px */
+    width: 50vw;
 }
 
 .large-text{
@@ -118,3 +132,15 @@ footer{
 
 footer{
     background-color: rgb(27, 193, 223);
+}
+
+section p {
+    width: 50%;
+    height: 100px;
+    /* padding: top right bottom left
+    padding: 1em .5em 1em .5em */
+    padding: 1em;
+    margin: 2em;
+    border: 2px solid black;
+    border-left: 6px solid black;
+}
