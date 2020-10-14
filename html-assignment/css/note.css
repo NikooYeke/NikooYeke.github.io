@@ -37,4 +37,5 @@ article h2 {
 .yellow-back {
     color: rgb(204, 84, 37);
     font-size: 18px;
+    line-height: 2;
 }
