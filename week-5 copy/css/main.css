@@ -108,11 +108,5 @@ footer{
     background-color: red;
 }
 
-/* specificity: 0001 */
 footer{
     background-color: rgb(27, 193, 223);
-}
-
-body footer {
-    
-}
