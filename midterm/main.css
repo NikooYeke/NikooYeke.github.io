@@ -1,0 +1,19 @@
+body{
+    font-family: Calibri, sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.back{
+    background: url(../images/header);
+}
+
+.inline {
+    width: 30px;
+    height: 15px;
+    margin: 10px;
+}
+
+.inline {
+    list-style: none;
+}
