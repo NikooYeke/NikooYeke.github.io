@@ -6,7 +6,7 @@ body{
     margin: 0 auto;
     margin-bottom: 50px;
     /* background-image: url("../midterm/images/background.jpg"); */
-    background-color: rgb(230, 230, 204);
+    background-color: #e8dde9;
     background-image: url("../midterm/images/7414.jpg");
     /* background-image: url("../midterm/images/210.png"); */
     background-size: 60%;
@@ -48,7 +48,7 @@ ul li {
     border-right: 1px solid black;
     text-transform: uppercase;
     font-weight: 600;
-    
+
     /* background-color: blanchedalmond; */
 }
 
