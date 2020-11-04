@@ -48,7 +48,8 @@ ul li {
     border-right: 1px solid black;
     text-transform: uppercase;
     font-weight: 600;
-
+    margin: 0;
+    padding: 0;
     /* background-color: blanchedalmond; */
 }
 
