@@ -88,7 +88,7 @@ a:focus {
 h1,
 h2,h3,h4,h5 {
     font-weight: bold;
-    margin: 1em 0 0.5em;
+    margin: 1em 20px 0.5em;
 }
 /* Modular scale https://www.modularscale.com */
 
@@ -108,6 +108,11 @@ h5{
     font-size: 1rem;
 }
 
+img {
+	width: 100%;
+}
+
+/* Header styling */
 .site-header {
 	background-color: #222;
 	border-bottom: 20px;
@@ -118,7 +123,7 @@ h5{
 	margin-top: 20px;
 	margin-left: 20px;
 	border-bottom: 20px, #c78c06;
-	align-items: flex-start;
+	width: 10%;
 }
 
 ul li {
@@ -138,14 +143,15 @@ header li {
 	line-height: 3rem;
 }
 
+/* Styling search bar */
 .im-magnifier {
 	color: #c78c06;
 	border-color: 3px #c78c06;
 	font-size: 18px;
   }
 
-  .search-bar {
-	width: 100%;
+  .search {
+	width: 90%;
 	margin-left: 20px ;
   }
 
@@ -161,20 +167,23 @@ header button {
 	margin-bottom: 20px;
   }
 
-  /* styling the head 1 */
-.banner-img {
-	width: 100%;
-}
-
+  /* styling the banner */
 .banner-one {
 	position: absolute;
     color: white;
 	background-color: rgba(0, 0, 0, 60%);
+	margin-top: 50px;
 	text-align: left;
 	width: 50%;
 }
 
-.banner h1, p, a {
+.banner h1, a {
+	margin-left: 20px;
+	margin-top: 0;
+}
+
+p {
+	margin-right: 20px;
 	margin-left: 20px;
 }
 
@@ -182,29 +191,186 @@ header button {
 .banner i {
 	background-color: #c78c06;
 	color: #222;
-	padding: 25px;
-	margin-top: 10px;
+	/* padding: 25px; */
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
-.banner i {
-	padding-left: 0;
-	padding-bottom: 35px;
+.im-play {
+	font-size: 16px;
+	padding-left: 5px;
+	padding-bottom: 27px;
+	padding-top: 20px;
+	padding-right: 10px;
 }
 
 .banner a {
 	font-size: 18pt;
 	text-decoration: none;
-	padding-bottom: 28px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
 }
 
+/* styling about us */
 .about-us {
 	background-color: #ffe6ac;
+	margin-top: 0;
 }
 .about {
-	width: 100%;
+	width: 95%;
 	margin: 20px;
 }
-.about-us h3,
+.about-us h2 {
+	margin-left: 20px;
+	margin-top: 0;
+}
+
 .about-us p {
-	margin: 20px;
+	margin-right: 20px;
+	padding-bottom: 20px;
 }
+ /* ----------
+  Styling Our Services
+  ------------------- */
+  .our-services,
+  .marketing,
+  .video,
+  .web,
+  .print {
+	  background-color: #ffe6ac;
+	  padding-bottom: 20px;
+	  margin-bottom: 10px;
+	  width: 95%;
+	  
+  }
+
+.our-services a,
+.marketing a,
+.video a,
+.web a,
+.print a {
+	font-size: 17pt;
+	color: white;
+	text-decoration: none;
+	padding-bottom: 20.5px;
+	padding-top: 12px;
+	padding-left: 15px;
+	background-color: #222;
+	margin-top: 10px;
+}
+
+.our-services i,
+.marketing i,
+.video i,
+.web i,
+.print i {
+	color: white;
+	background-color: #222;
+	margin-top: 10px;
+}
+ /* Our vision */
+ .our-vision {
+	position: absolute;
+    color: white;
+	margin-top: 50px;
+	text-align: left;
+	width: 50%;
+}
+
+.our-vision a {
+	font-size: 17pt;
+	color: white;
+	text-decoration: none;
+	padding-bottom: 20.5px;
+	padding-top: 12px;
+	padding-left: 15px;
+	background-color: #222;
+	margin-top: 10px;
+}
+
+.our-vision i {
+	color: white;
+	background-color: #222;
+	margin-top: 10px;
+}
+
+.vision img {
+	height: 350px;
+}
+
+/* Our team */
+.john-bio,
+.bob-bio {
+	background-color: #ffe6ac;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+h5 {
+	border-bottom: solid 2px #c78c06;
+	margin-top: -20px;
+}
+
+/* styling contact */
+.style {
+display: block;
+width: 100%;
+margin-bottom: 10px;
+}
+
+.contact h3 {
+	margin-left: 0;
+	margin-top: -20px;
+}
+
+.contact button {
+	background-color: #222;
+	color: #c78c06;
+	font-size: 20px;
+	border: solid 2px #c78c06
+}
+
+/* Hours of operation */
+table {
+	width: 100%;
+}
+table, th {
+	border: 1px solid #222;
+	padding: 10px;
+}
+
+table thead {
+	background-color: #ffe6ac;
+}
+
+tbody {
+	text-align: left;
+}
+
+.hours h3 {
+	margin-left: 0;
+}
+
+/* location Style */
+.location iframe {
+	width: 100%;
+	margin-bottom: 10px;
+}
+.location h3 {
+	margin-left: 0;
+}
+
+/* footer */
+.footer {
+	background-color: #222;
+	margin-bottom: 30px;
+}
+
+.footer p {
+	color: #c78c06;
+	padding: 10px;
+}
+
+
+
+
