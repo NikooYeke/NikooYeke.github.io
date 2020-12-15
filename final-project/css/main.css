@@ -88,7 +88,10 @@ a:focus {
 h1,
 h2,h3,h4,h5 {
     font-weight: bold;
-    margin: 1em 20px 0.5em;
+    margin: 0.8em 20px 0.5em;
+}
+h2 {
+	margin-left: 0;
 }
 /* Modular scale https://www.modularscale.com */
 
@@ -116,13 +119,14 @@ img {
 .site-header {
 	background-color: #222;
 	border-bottom: 20px;
+	width: 100%;
 }
 
-.logo {
+.container img {
 	background-color: #c78c06;
 	margin-top: 20px;
 	margin-left: 20px;
-	border-bottom: 20px, #c78c06;
+	border-bottom: #c78c06 solid 5px;
 	width: 10%;
 }
 
@@ -134,7 +138,6 @@ ul li:first-child {
 	background-color: #c78c06;
 	color:  #222;
 	margin: 20px;
-	margin-top: 0;
 }
 
 header li {
@@ -157,8 +160,10 @@ header li {
 
 header button {
 	background-color:  #222;
-	padding-bottom: 5px;
+	padding-bottom: 6px;
+	padding-top: 2px;
 	border: 1px solid #c78c06;
+	margin-left: -4px;
   }
 
 .search {
@@ -172,7 +177,7 @@ header button {
 	position: absolute;
     color: white;
 	background-color: rgba(0, 0, 0, 60%);
-	margin-top: 50px;
+	margin-top: 65px;
 	text-align: left;
 	width: 50%;
 }
@@ -185,6 +190,9 @@ header button {
 p {
 	margin-right: 20px;
 	margin-left: 20px;
+}
+.banner p {
+	margin-top: -30px;
 }
 
 .banner a,
@@ -215,7 +223,7 @@ p {
 /* styling about us */
 .about-us {
 	background-color: #ffe6ac;
-	margin-top: 0;
+	margin-top: -10px;
 }
 .about {
 	width: 95%;
