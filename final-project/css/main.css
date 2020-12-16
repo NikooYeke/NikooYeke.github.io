@@ -150,7 +150,7 @@ header li {
 /* Styling search bar */
 .im-magnifier {
 	color: #c78c06;
-	border-color: 3px #c78c06;
+	border-color: #c78c06;
 	font-size: 18px;
   }
 
@@ -464,10 +464,6 @@ tbody {
 			 display: grid;
 			 grid-template-columns: repeat(2, 1fr);
 			 column-gap: 10px;
-		 }
-
-		 .marketing {
-			 padding-bottom: -10px;
 		 }
 
 		 .main-2 {
