@@ -20,7 +20,11 @@ body #main .home {
     font-family: 'Gill Sans', 'Gill Sans MT',
     Calibri, 'Trebuchet MS', sans-serif;
     background-color: white;
-    background-image: url(images/banner.jpg);
+    background-image: url(images/banner2.jpg);
+}
+.main p {
+  color: rgb(10, 49, 83);
+  
 }
 
 /* Changing the font, background, and style of "about me" section */
@@ -29,27 +33,42 @@ body #main .home {
     'Trebuchet MS', sans-serif;
     font-size: 16pt;
     width: 90%;
-    color: slategray;
+    color: #235789;
 }
 body #about {
     background-color: rgb(205, 235, 235);
-    border-bottom: 50px solid rgb(130, 196, 192);
+    border-bottom: 50px solid #82A7A6;
 }
 .about .section-title{
-    color:tomato;
+    color: #EDB6A3;
 }
 .about .about-image {
     width: 250px;
 }
 
-/*  */
+/* Styling contact section, changing font size and color */
 body #contact {
     background-color: rgb(221, 221, 219);
 }
-.contact p {
-    font-size: 16px;
+body #contact p {
+    font-size: 16pt;
     width: 90%;
+    text-align: left;
+    margin-left: 50px;
+}
+.contact .contact-form {
+    background-color: rgb(226, 172, 162);
+}
+form label{
+    font-size: 16px;
+}
+.contact-form-input {
+    margin-bottom: 10px;
 }
 
+/* Alignining the footer */
+footer p {
+    margin-left: 150px;
+}
 
 
