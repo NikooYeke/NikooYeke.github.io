@@ -1,5 +1,5 @@
 /* Making the elemants reponsive*/
-html #nav, #main, #about, #contact {
+html #nav, #main, #about, #contact, footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -11,11 +11,11 @@ html #nav, #main, #about, #contact {
     margin-right: auto;
     width: 60%;
 }
-/* Changing the contant font */
+/* Changing the content font */
 body {
     font-family: 'Gill Sans', 'Gill Sans MT',
     Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 /* Changing the style of menu */
@@ -25,18 +25,19 @@ body {
     border: 0;
 }
 #nav .nav-link{
-    font-size: 16px;
+    font-size: 12pt;
     margin: 40px;
 }
 
 /* Changing the font and adding the image for banner */
 body #main {
-    background-color: #EDB6A3;
+    background-color: #f3e1db;
 }
 body #main .home {
     font-family: 'Gill Sans', 'Gill Sans MT',
     Calibri, 'Trebuchet MS', sans-serif;
     background-image: url(images/banner2.jpg);
+    font-size: 14pt;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +51,7 @@ body #main .home {
 .about p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri,
     'Trebuchet MS', sans-serif;
-    font-size: 16pt;
+    font-size: 14pt;
     width: 90%;
     color: #235789;
     margin-left: 40px;
@@ -60,10 +61,11 @@ body #about {
     border-bottom: 20px solid #82A7A6;
 }
 .about .section-title{
-    color: #EDB6A3;
+    color: #dfa08b;
+    font-size: 20pt;
 }
 .about .about-image {
-    width: 250px;
+    width: 200px;
 }
 
 /* Styling contact section, changing font size and color */
@@ -71,16 +73,19 @@ body #contact {
     background-color: rgb(221, 221, 219);
 }
 body #contact p {
-    font-size: 16pt;
-    width: 90%;
+    font-size: 14pt;
+    width: 80%;
     text-align: left;
     margin-left: 50px;
+}
+.contact .section-title {
+    font-size: 20pt;
 }
 .contact .contact-form {
     background-color: rgb(226, 172, 162);
 }
 form label{
-    font-size: 16px;
+    font-size: 14px;
 }
 .contact-form-input {
     margin-bottom: 10px;
@@ -88,5 +93,50 @@ form label{
 
 /* Alignining the footer */
 footer p {
-    margin-left: 150px;
+    margin-left: 10px;
+    font-size: 10pt;
 }
+
+/* ----------------
+   Desktop Styling
+ ------------------*/ 
+ @media screen and (min-width: 600px) {
+    
+    body {
+        font-size: 16pt;
+    }
+    
+    /* Changing the menu font size */
+    #nav .nav-link{
+        font-size: 14pt;
+    }
+    
+    /* Changing the font size and image width of main section */
+    body #main .home {
+        font-size: 16pt;
+        width: 83%;
+    }
+    
+    /* Changing the font size of about section */
+    .about p {
+        font-size: 16pt;
+    }
+    .about .about-image {
+        width: 250px;
+    }
+    
+    /* Aligning the text and changing the font size of contact section */
+    body #contact p {
+        font-size: 16pt;
+        width: 90%;
+    }
+    form label{
+        font-size: 14px;
+    }
+    
+    /* Alignining the footer */
+    footer p {
+        margin-left: 150px;
+        font-size: 10pt;
+    }
+ }
