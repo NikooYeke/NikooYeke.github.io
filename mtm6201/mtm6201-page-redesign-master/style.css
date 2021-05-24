@@ -1,30 +1,49 @@
+/* Making the elemants reponsive*/
+html #nav, #main, #about, #contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#contact .contact-form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
 /* Changing the contant font */
 body {
     font-family: 'Gill Sans', 'Gill Sans MT',
     Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
 }
 
 /* Changing the style of menu */
 #nav.nav{
-    color: black;
+    color: #235789;
     background-color: rgb(255, 255, 255);
     border: 0;
 }
 #nav .nav-link{
     font-size: 16px;
-    margin-left: 2rem;
+    margin: 40px;
 }
 
 /* Changing the font and adding the image for banner */
+body #main {
+    background-color: #EDB6A3;
+}
 body #main .home {
     font-family: 'Gill Sans', 'Gill Sans MT',
     Calibri, 'Trebuchet MS', sans-serif;
-    background-color: white;
     background-image: url(images/banner2.jpg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 .main p {
-  color: rgb(10, 49, 83);
-  
+  color: rgb(10, 49, 83); 
 }
 
 /* Changing the font, background, and style of "about me" section */
@@ -34,10 +53,11 @@ body #main .home {
     font-size: 16pt;
     width: 90%;
     color: #235789;
+    margin-left: 40px;
 }
 body #about {
     background-color: rgb(205, 235, 235);
-    border-bottom: 50px solid #82A7A6;
+    border-bottom: 20px solid #82A7A6;
 }
 .about .section-title{
     color: #EDB6A3;
@@ -70,5 +90,3 @@ form label{
 footer p {
     margin-left: 150px;
 }
-
-
