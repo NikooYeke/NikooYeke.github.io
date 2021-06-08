@@ -38,6 +38,7 @@ footer {
     .sidebar {grid-area: sidebar;}
     footer {grid-area: footer;}
 }
+
  @media (min-width: 1000px ) {
  .grid {
      width: 1000px;
@@ -48,6 +49,7 @@ footer {
      "main main sidebar"
      "footer footer footer"
  }
+}
 
  @media (min-width: 1200px) {
      .grid {
@@ -56,4 +58,5 @@ footer {
  p {
      font-size: 1.2rem;
  }
+}
         
