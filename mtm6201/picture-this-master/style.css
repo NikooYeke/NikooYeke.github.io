@@ -2,7 +2,7 @@
 
 html,
 body {
-  margin: 20px;
+  margin: 0;
   border: 0;
   font-family: 'Roboto', sans-serif;
 }
@@ -39,5 +39,8 @@ img {
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
+  }
+  img {
+    
   }
 }
