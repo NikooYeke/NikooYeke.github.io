@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Familly -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <img src="images/logo.png" alt="logo">
+</header>
+<section class="title">
+    <h1>Want to be your own boss?</h1>
+    <p>Start today and make up to $30/hr driving your own vehicle with Dash!</p>
+</section>
+<section class="image">
+    <img src="images/scooter.svg" alt="main-image">
+</section>
+<section class="apply-now">
+    <h3>Apply Now</h3>
+    <h5>Enter your info below.</h5>
+    <form class="apply" method="post">
+    <input id="name" type="text" placeholder="First name">
+    <input id="lastname" type="text" placeholder="Last name">
+    <input id="phone" type="text" placeholder="Phone number">
+    <input id="email" type="text" placeholder="Email address">
+    <input id="agree" type="checkbox">
+    <label for="agreement">I agree to dash terms</label>
+    <button type="submit">DRIVE WITH US</button>
+    </form>
+    <p>Already applied?<a href="status"> Check your application status here</a></p>
+</section>
+<section class="footer">
+    <footer>
+        <h6>See how much you can earn with Dash.</h6>
+        <p>how many hours do you want to drive with us this week?</p>
+        <form action="calculate">
+            <input type="text" placeholder="Hours">
+            <input type="text" placeholder="City">
+            <button type="calculate">CALCULATE</button>
+        </form>
+        <div class="icon">
+            <img src="facebook.svg" alt="facebook">
+            <img src="instagram.svg" alt="instagram">
+            <img src="linkedin.svg" alt="linkedin">
+            <img src="twitter.svg" alt="twitter">
+        </div>
+    </footer>
+</section>
+    
+</body>
+</html>
