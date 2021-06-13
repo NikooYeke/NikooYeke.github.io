@@ -2,11 +2,95 @@ html {
     font-family: 'montserrat';
 	box-sizing: border-box;
 	color: black;
-	width: 90%;
 	margin: 0 auto;
-	max-width: 1200px;
 }
 
+/* defining background color and font size */
 body {
-    
+   background-color: #F7F7FF;
+   font-size: 16px;
+}
+
+/* defining the logo size */
+.logo {
+    width: 114px;
+    height: auto;
+}
+
+h1 {
+    font-size: 60px;
+}
+.title p {
+    font-size: 24px;
+    margin-top: -2rem;
+}
+
+.scooter img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.style {
+    display: block;
+    margin-bottom: 1rem;
+    width: 95%;
+    padding: 10px;
+    border:none;
+    border-radius: 8px;
+    background-color: rgb(233, 233, 233);
+}
+.apply button {
+    background-color: #57EEAB;
+    margin-top: 1rem;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.apply-now {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(189, 188, 188);
+}
+
+a {
+    color: #FF8480;
+}
+
+.footer {
+    background-color: #FFFD8C;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.footer img {
+    margin: 1rem;
+}
+
+.footer-form {
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+}
+
+.calculate button {
+    background-color: #FF8480;
+    color: white;
+    width: 80%;
+    margin: 10px;
+}
+
+.icon {
+    text-align: center;
+    margin: 1.2rem;
 }
