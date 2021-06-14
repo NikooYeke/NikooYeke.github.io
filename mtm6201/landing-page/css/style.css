@@ -183,17 +183,17 @@ footer {
     width: 100%;
 }
 
+ footer {
+     padding-bottom: 5rem;
+ } 
+
   .footer {
       float: left;
   }
 
-  .calculate {
-      width: 30%;
-  }
   .icon {
-      text-align: right;
-      margin-top: -7rem;
-      margin-right: 5%;
+text-align: right;
   }
+
     
 }
