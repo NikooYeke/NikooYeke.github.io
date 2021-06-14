@@ -183,6 +183,10 @@ footer {
     width: 100%;
 }
 
+.calculate {
+    margin-top: -1.5rem;
+}
+
  footer {
      padding-bottom: 5rem;
  } 
@@ -192,7 +196,8 @@ footer {
   }
 
   .icon {
-text-align: right;
+      text-align: right;
+      margin-right: 5%;
   }
 
     
