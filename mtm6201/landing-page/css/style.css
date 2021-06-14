@@ -9,8 +9,10 @@ html {
 body {
    background-color: #F7F7FF;
    font-size: 16px;
-   margin-left: 5%;
-   margin-right: 5%;
+}
+#margin, .footer-text, .calculate {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* defining the logo size */
@@ -76,7 +78,7 @@ a {
 }
 
 /* Aligning and removing the margin in footer */
-.footer {
+footer {
     display: block;
     background-color: #FFFD8C;
     padding: 2rem;
@@ -96,10 +98,12 @@ a {
     background-color: #FF8480;
     color: white;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 15px;
     border-radius: 8px;
     border: none;
-    padding: 10px;
+    padding: 7px;
+    font-size: 20px;
+    
 }
 /* resizing the hours and city input text earia in footer */
 #hours {
@@ -122,7 +126,12 @@ a {
    Tablet size styling
    ------------------- */
 @media (min-width:768px) {
-
+/* changing the margin size */
+  #margin, .footer-text, .calculate {
+       margin-left: 7%;
+       margin-right: 7%;
+    }
+/* changing font size for diffrent items according to the XD  */
   h1 {
       font-size: 80px;
   }
@@ -139,10 +148,18 @@ a {
       font-size: 20px;
   }
 
+  /* Changing the main image size */
+  .scooter img {
+      width: 70%;
+      height: auto;
+  }
+
+/* Algnning the link in apply part to center */
   .apply-link {
       text-align: center;
   }
   
+  /* Changing the width of footer form & button according to XD */
   #hours {
       width: 15%;
   }
@@ -152,4 +169,31 @@ a {
   .calculate-button {
       width: 32%;
   }
+}
+
+@media (min-width:1280px) {
+
+    .main {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.scooter {
+    background-image: url("images/bg-images/scooter.svg");
+    width: 100%;
+}
+
+  .footer {
+      float: left;
+  }
+
+  .calculate {
+      width: 30%;
+  }
+  .icon {
+      text-align: right;
+      margin-top: -7rem;
+      margin-right: 5%;
+  }
+    
 }
