@@ -33,11 +33,13 @@ h2 {
     margin-top: -2rem;
 }
 
-/* Aligning the main image to center */
-.scooter img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+/* Adding the main images and set the position and size */
+
+.scooter {
+    background-image: url(../images/bg-image/scooter.svg);
+    background-repeat: no-repeat;
+    height: 211px;
+    background-position: center;
 }
 
 /* Aligning & styling the form of APPLy now part */
@@ -81,10 +83,10 @@ a {
 footer {
     display: block;
     background-color: #FFFD8C;
-    padding: 2rem;
-    width: 100%;
+    flex-direction: column;
     margin-top: 2rem;
-    margin-left: -2rem;
+    padding-top: 2rem;
+    width: 100%;
 }
 
 /* Curving and removing the border of footer form */
@@ -149,56 +151,62 @@ footer {
   }
 
   /* Changing the main image size */
-  .scooter img {
-      width: 70%;
-      height: auto;
+  .scooter {
+    width: 420px;
+    height: 307px;
+    background-position: center;
+    margin-left: 10rem;  
   }
 
 /* Algnning the link in apply part to center */
   .apply-link {
-      text-align: center;
+    text-align: center;
   }
   
   /* Changing the width of footer form & button according to XD */
   #hours {
-      width: 15%;
+    width: 15%;
   }
   #city {
-      width: 40%;
+    width: 40%;
   }
   .calculate-button {
-      width: 32%;
+    width: 32%;
   }
 }
+
+/* -------------------
+   Desktop styling 
+   ------------------- */
 
 @media (min-width:1280px) {
 
-    .main {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+/* Using grid for put sections in 3 columns */
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
-
+/* Resizing the main image */
 .scooter {
-    background-image: url("images/bg-images/scooter.svg");
-    width: 100%;
+    width: 819px;
+    height: auto;
+    margin-left: 0rem;
+}
+/* overlaping cells */
+.title {
+    margin-right: -150px;
+}
+.apply-now {
+    margin-left: -70px;
 }
 
 .calculate {
     margin-top: -1.5rem;
 }
 
- footer {
-     padding-bottom: 5rem;
- } 
-
-  .footer {
-      float: left;
-  }
-
-  .icon {
-      text-align: right;
-      margin-right: 5%;
-  }
-
-    
+.footer {
+    flex-direction: row;
+}
+.calculate {
+    width: 30%;
 }
