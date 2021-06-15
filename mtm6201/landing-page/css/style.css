@@ -79,9 +79,10 @@ a {
     color: #FF8480;
 }
 
-/* Aligning and removing the margin in footer */
+/* Aligning & using flex to set the item position in footer */
 footer {
-    display: block;
+    display: flex;
+    flex-direction: column;
     background-color: #FFFD8C;
     flex-direction: column;
     margin-top: 2rem;
@@ -114,6 +115,7 @@ footer {
 #city {
     width: 69%;
 }
+
 /* Aligning the social media icons */
 .icon {
     text-align: center;
@@ -199,14 +201,23 @@ footer {
 .apply-now {
     margin-left: -70px;
 }
-
+/* Reducing the space between form and text in footer */
 .calculate {
     margin-top: -1.5rem;
 }
 
 .footer {
-    flex-direction: row;
+    margin-left: 5%;
 }
-.calculate {
-    width: 30%;
+
+/* Changing the position of items in footer by flex */
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2rem;
+}
+.icon {
+    float: right;
+    margin-left: 32rem; 
+}
 }
