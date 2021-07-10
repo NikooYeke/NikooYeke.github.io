@@ -74,6 +74,7 @@ li {
     margin-top: 2rem;
 }
 
+/* Adding style to all buttons */
 .cake-button, .raisin, .croissants, .macaroons, .dessert, .vanilla {
     padding: 10px;
     padding-left: 15px;
@@ -83,6 +84,19 @@ li {
     border-radius: 10px;
     font-size: 16px;
 }
+
+/* Adding hover to all images for making bigger */
+.img-cake:hover, .img-cookie:hover, .img-croissant:hover,
+.img-cupcake:hover, .img-dessert:hover, .img-macaroons:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+/* Adding hover to all botton for changing the color */
+.cake-button:hover, .raisin:hover, .croissants:hover,
+ .macaroons:hover, .dessert:hover, .vanilla:hover {
+     background-color: rgb(248, 208, 134);
+ }
 
 
 .footer {
@@ -110,7 +124,7 @@ li {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
-        gap: 15px;
+        gap: 20px;
     }
     
     .footer {
@@ -182,12 +196,12 @@ li {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        gap: 30px;
+        gap: 40px;
     }
 
     .cake-button, .raisin, .croissants, .macaroons, .dessert, .vanilla {
         text-align: center;
-        margin-top: 1rem;
+        margin-top: 0.2rem;
         margin-left: 11.5rem;
     }
 
