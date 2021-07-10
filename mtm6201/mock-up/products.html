@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <!-- Defining the Font Familly -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Adding the icon to page -->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+  <link rel="stylesheet" href="css/style-products.css">
+    <title>Products</title>
+</head>
+<body>
+      <!-- Creating the header part -->
+  <header>
+    <!-- Useing <nav> to make a navigation for menu -->
+    <div class="search">
+      <!-- adding a search bar to header -->
+      <input type="text" placeholder="Search..">
+      <!-- adding the search icon -->
+      <span class="iconify" data-icon="bx:bx-search-alt-2" data-inline="false"></span>
+    </div>
+    <div class="logo">
+      <!-- adding logo to header -->
+      <img id="logo" src="images/logo.png" alt="logo">
+    </div>
+    <nav class="menu">
+      <ul>
+        <!-- creating menu and navigate them to their pages by using <a href... -->
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <hr class="line">
+    </nav>
+  </header>
+<!-- Adding product images, title and the buy button -->
+  <section class= "products">
+      <!-- The cake part -->
+      <div class= "cake">
+          <!-- Adding cake image -->
+          <img class="img-cake" src="images/cake.png" alt="cake">
+          <!-- addind cake title -->
+          <h4>Butter Cake</h4>
+          <!-- adding the buy button -->
+          <li class="cake-button">Buy</li>
+      </div>
+      <div class="cookie">
+          <img class="img-cookie" src="images/cookies-with-raisin.png" alt="cookie">
+          <h4>Cookie with raisin</h4>
+          <li class="raisin">Buy</li>
+      </div>
+      <div class="croissant">
+          <img class="img-croissant" src="images/croissants.png" alt="croissant">
+          <h4>Croissant</h4>
+          <li class="croissants">Buy</li>
+      </div>
+      <div class="macaroon">
+        <img class="img-macaroons" src="images/macaroons.png" alt="macaroon">
+        <h4>Macaroon</h4>
+        <li class="macaroons">Buy</li>
+    </div>
+    <div class="french">
+        <img class="img-dessert" src="images/french-dessert.png" alt="french-dessert">
+        <h4>Croissant</h4>
+        <li class="dessert">Buy</li>
+    </div>
+    <div class="cupcakes">
+        <img class="img-cupcake" src="images/vanilla-cupcakes.png" alt="cupcakes">
+        <h4>Vanilla Cup Cake</h4>
+        <li class="vanilla">Buy</li>
+    </div>
+  </section>
+      <!-- Adding the footer -->
+      <footer>
+        <p class="footer">Privacy Policy | Ordering Policy | Notice and Take Down Policy | Website Accesssibilty Policy
+          <br>&copy; 2020 The content on this website is owned by us and our licensors. Do not copy any content
+          (including images) without our consent. </p>
+      </footer>
+</body>
+</html>
