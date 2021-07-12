@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <!-- Defining the Font Familly -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Adding the icon to page -->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+  <link rel="stylesheet" href="css/style-contact.css">
+    <title>Products</title>
+</head>
+<body>
+      <!-- Creating the header part -->
+  <header>
+    <!-- Useing <nav> to make a navigation for menu -->
+    <div class="search">
+      <!-- adding a search bar to header -->
+      <input type="text" placeholder="Search..">
+      <!-- adding the search icon -->
+      <span class="iconify" data-icon="bx:bx-search-alt-2" data-inline="false"></span>
+    </div>
+    <div class="logo">
+      <!-- adding logo to header -->
+      <img id="logo" src="images/logo.png" alt="logo">
+    </div>
+    <nav class="menu">
+      <ul>
+        <!-- creating menu and navigate them to their pages by using <a href... -->
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <hr class="line">
+    </nav>
+  </header>
+  <body>
+      <!-- Contact form -->
+    <section class="contact">
+        <h3>Send us a message</h3>
+        <label id="fullname">Full Name</label>
+        <input type="text" class="style">
+        <label id="yourEmail">Email</label>
+        <input type="text" class="style">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10" class="style"></textarea>
+        <button type="button">Send</button>
+    </section>
+    <!-- Adding the footer -->
+    <footer>
+        <p class="footer">Privacy Policy | Ordering Policy | Notice and Take Down Policy | Website Accesssibilty Policy
+          <br>&copy; 2020 The content on this website is owned by us and our licensors. Do not copy any content
+          (including images) without our consent. </p>
+      </footer>
+  </body>
+</html>

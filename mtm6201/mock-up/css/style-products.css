@@ -68,11 +68,11 @@ li {
 .search input {
     text-align: center;
 }
-
+/* Aligning sections */
 .cookie, .cake, .croissant, .macaroon, .french, .cupcakes {
     text-align: center;
 }
-
+/* Styling products images */
 .img-cake, .img-cookie, .img-croissant, .img-macaroons,
 .img-dessert, .img-cupcake {
     width: 100%;
@@ -105,7 +105,7 @@ li {
      background-color: rgb(248, 208, 134);
  }
 
-
+/* Styling footer */
 .footer {
     margin-top: 3rem;
     text-align: left;
@@ -116,7 +116,32 @@ li {
     padding-left: 5rem;
     font-weight: bold;
     margin-left: -5rem;
+    
 }
+
+/* ----------------
+   Tablet Styling
+   ---------------- */
+   @media (min-width: 768px) {
+
+    /* changing the menu size */
+    li {
+        font-size: 10pt;
+    }
+
+    /* Changing the products display */
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 25px;
+
+    /* Changing the footer font size */
+    .footer {
+        font-size: 8pt;
+        font-weight: 300;
+    }
+   }
 
    /* ----------------
    Desktop Styling
