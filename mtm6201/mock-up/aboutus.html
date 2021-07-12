@@ -4,19 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABOUT US</title>
+     
+    <!-- Defining the Font Familly -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Adding the icon to page -->
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+  <link rel="stylesheet" href="css/style-about.css">
+    <title>Products</title>
 </head>
-<nav>
-    <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="aboutus">ABOUT US</a></li>
-        <li>PRODUCTS</li>
-        <li>CONTACT</li>
-    </ul>
-</nav>
 <body>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
-         porro quaerat quae pariatur. Dignissimos numquam molestiae reiciendis, officiis totam eveniet molestias ipsam laudantium, aspernatur nesciunt quisquam eos id neque corporis?</p>
-    
-</body>
+      <!-- Creating the header part -->
+  <header>
+    <!-- Useing <nav> to make a navigation for menu -->
+    <div class="search">
+      <!-- adding a search bar to header -->
+      <input type="text" placeholder="Search..">
+      <!-- adding the search icon -->
+      <span class="iconify" data-icon="bx:bx-search-alt-2" data-inline="false"></span>
+    </div>
+    <div class="logo">
+      <!-- adding logo to header -->
+      <img id="logo" src="images/logo.png" alt="logo">
+    </div>
+    <nav class="menu">
+      <ul>
+        <!-- creating menu and navigate them to their pages by using <a href... -->
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+        <li><a href="products.html">PRODUCTS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <hr class="line">
+    </nav>
+  </header>
+  <body>
+      <!-- Adding the macaroon images -->
+      <section class="macaroon">
+          <img class="orange" src="images/orange.png" alt="orange-macaroon">
+          <img class="mint" src="images/mint.png" alt="mint-macaroon">
+          <img class="grape" src="images/grape.png" alt="grape-macaroon">
+      </section>
+      <!-- Adding about text -->
+      <div class="about">
+          <h3>FOR AS LONG AS I CAN REMEMBER, I’VE LOVED BAKING.</h3>
+          <p>Do you remember the deserts you cooked with your grandmother on
+             weekends or during the holidays? That delicious smell coming out of her
+             kitchen when you came home from the school? The brioche coming out of the oven
+             that comforted you after an intense study day? Or again those Sunday mornings
+             in your pajamas enjoying those warm crispy croissants?
+             Mamie Clafoutis, brings back those tasty memories, with excellent recipes and the
+             utmost simplicity.</p>
+      </div>
+            <!-- Adding the footer -->
+            <footer>
+                <p class="footer">Privacy Policy | Ordering Policy | Notice and Take Down Policy | Website Accesssibilty Policy
+                  <br>&copy; 2020 The content on this website is owned by us and our licensors. Do not copy any content
+                  (including images) without our consent. </p>
+              </footer>
+  </body>
+ 
 </html>
