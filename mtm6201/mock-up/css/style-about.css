@@ -11,9 +11,8 @@ body{
 }
 
 /* Removing the lists style */
-ol, ul{
-    list-style-type: none;
-    font-style: none;
+ul {
+    list-style: none;
 }
 
 /* styling navigations */
@@ -69,12 +68,12 @@ li {
     text-align: center;
 }
 
-.macaroon {
+#macaroon {
     align-items: center;
 }
 
 /* Changing images display to horizontaly */
-.macaroon {
+#macaroon {
     display: flex;
     flex-direction: row;
     width: 30%;
@@ -128,6 +127,7 @@ p{
     text-align: center;
 }
 
+
 /* Styling text */
 .about {
     width: 50%;
@@ -136,19 +136,19 @@ p{
     background-color: rgb(238, 238, 222);
     padding: 3rem;
     border-radius: 20px;
+    line-height: 2;
 }
 
 /* Styling the footer */
 .footer {
-    margin-top: 3rem;
     text-align: left;
     width: 120%;
-    background-color: rgb(250, 242, 221);
+    background-color: rgb(250, 235, 193);
+    opacity: 80%;
     font-size: 6pt;
-    padding: 1rem;
-    padding-left: 5rem;
     font-weight: bold;
     margin-left: -5rem;
+    padding: 1rem 10rem 1rem 5rem;
 }
 
 /* ----------------

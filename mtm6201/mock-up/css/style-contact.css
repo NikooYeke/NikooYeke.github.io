@@ -13,7 +13,6 @@ body{
 /* Removing the lists style */
 ol, ul{
     list-style-type: none;
-    font-style: none;
 }
 
 /* styling navigations */
@@ -72,7 +71,7 @@ li {
 /* styling contact */
 .style {
     display: block;
-    width: 90%;
+    width: 60%;
     margin-bottom: 10px;
     border-radius: 10px;
     padding-top: 10px;
@@ -98,18 +97,17 @@ li {
     }
 
     /* Styling footer */
-.footer {
-    margin-top: 3rem;
-    text-align: left;
-    width: 120%;
-    background-color: rgb(250, 242, 221);
-    font-size: 6pt;
-    padding: 1rem;
-    padding-left: 5rem;
-    font-weight: bold;
-    margin-left: -5rem;
-    line-height: 2;
-}
+    .footer {
+        position: absolute;
+        margin-top: -4.2rem;
+        text-align: left;
+        width: 83%;
+        background-color: rgb(250, 235, 193);
+        opacity: 60%;
+        font-size: 6pt;
+        padding: 1rem;
+        font-weight: bold;
+    }
 
 /* ----------------
    Tablet Styling
@@ -203,3 +201,4 @@ li {
         font-weight: 500;
         line-height: 2;
     }
+}
