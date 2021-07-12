@@ -225,13 +225,13 @@ li {
         grid-area: logo;
     }
     .menu {
-        grid-area: menu;
+        grid-area: navi;
     }
 
     /* Changing the header elements position */
     header{
         display: grid;
-        grid-template-areas: menu logo search ;
+        grid-template-areas: navi logo search ;
     }
 
     /* alighning the header elements */

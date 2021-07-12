@@ -106,13 +106,13 @@ li {
 /* Styling footer */
 .footer {
     text-align: left;
-    width: 120%;
+    width: 100%;
     background-color: rgb(250, 235, 193);
-    opacity: 80%;
+    opacity: 70%;
     font-size: 6pt;
     font-weight: bold;
     margin-left: -5rem;
-    padding: 1rem 10rem 1rem 5rem;
+    padding: 1rem 5rem 1rem 5rem;
 }
 
 /* ----------------
@@ -131,6 +131,7 @@ li {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         gap: 25px;
+    }
 
     /* Changing the footer font size */
     .footer {

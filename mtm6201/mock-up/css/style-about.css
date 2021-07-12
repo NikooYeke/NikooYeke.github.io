@@ -68,10 +68,6 @@ li {
     text-align: center;
 }
 
-#macaroon {
-    align-items: center;
-}
-
 /* Changing images display to horizontaly */
 #macaroon {
     display: flex;
@@ -119,18 +115,20 @@ li {
 
 /* changing the paragragh font size */
 p{
-    font-size: 14pt;
+    font-size: 12pt;
 }
 
 /* Alighning the about text */
 .about {
     text-align: center;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
 }
 
 
 /* Styling text */
 .about {
-    width: 50%;
+    width: 60%;
     text-align: center;
     margin-top: 5rem;
     background-color: rgb(238, 238, 222);
@@ -142,13 +140,13 @@ p{
 /* Styling the footer */
 .footer {
     text-align: left;
-    width: 120%;
+    width: 100%;
     background-color: rgb(250, 235, 193);
-    opacity: 80%;
+    opacity: 70%;
     font-size: 6pt;
     font-weight: bold;
     margin-left: -5rem;
-    padding: 1rem 10rem 1rem 5rem;
+    padding: 1rem 5rem 1rem 5rem;
 }
 
 /* ----------------
