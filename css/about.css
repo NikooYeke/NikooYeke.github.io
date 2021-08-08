@@ -3,11 +3,12 @@ body{
     font-family: 'Roboto', sans-serif;
     color: black;
     box-sizing: border-box;
-    font-size: 14pt;
+    font-size: 13pt;
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /* text-align: center; */
 }
 /* removing the lists styles */
 .navbar{
@@ -20,7 +21,81 @@ body{
 }
 
 
-a:hover {
+.navbar a:hover {
     border-bottom: solid 3px #D49E8D;
     color: black;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    width: 70%;
+    height: auto;
+}
+
+h4 {
+    color: #683B2B;
+    font-size: 24pt;
+    font-weight: 400;
+}
+
+.about {
+    margin: auto;
+    width: 80%;
+    background-color: #F3F0E6;
+    padding: 2rem;
+    font-size: 14pt;
+}
+
+.style {
+    margin: auto;
+    width: 80%;
+    display: block;
+    border-radius: 0.6rem;
+    background-color: #F7F4EB;
+    border: 3px solid #D8CEAE;
+    margin-top: 2rem;
+    padding: 0.5rem;  
+}
+
+h5 {
+    color: #683B2B;
+    font-size: 24pt;
+    font-weight: 400;
+    margin-top: 2rem;
+
+}
+
+button {
+    background-color: #D8CEAE;
+    border-radius: 0.6rem;
+    border:none;
+    color: white;
+    margin-top: 2rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}
+
+footer {
+    background-color: #D49E8D;
+    display: flex;
+
+}
+
+.logo {
+    display: block;
+    float: right;
+    width: 25px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+.copyright {
+    color: white;
+    font-size: 11pt;
+    margin-top: 2rem;
+    margin-left: 2rem;

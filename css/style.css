@@ -20,12 +20,20 @@ body{
 }
 
 
-a:hover {
+.navbar a:hover {
     border-bottom: solid 3px #D49E8D;
     color: black;
 }
 
-.img-fluid {
+.pic-home{
     width: 100%;
     height: auto;
+}
+
+picture {
+    position: relative;
+}
+
+.text-center {
+    color: wheat;
 }
