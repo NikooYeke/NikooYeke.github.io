@@ -31,9 +31,73 @@ body{
 }
 
 picture {
+    width: 100%;
+    height: auto;
     position: relative;
 }
 
 .text-center {
     color: wheat;
+    margin-top: 3rem;
+}
+h1 {
+    font-size: 36pt;
+    font-weight: 300;
+}
+
+/* Adding movement animation to the text */
+.text {
+    animation: move-from-left 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move-from-left {
+    from{transform: translatex(-1500 px);}
+    to {transform: translatex(70%);}
+}
+
+/* ----------------------------
+-------Tablet size style-------
+------------------------------- */
+
+@media (min-width: 768px) {
+
+.text-center {
+        margin-top: 12rem;
+        margin-left: 9rem;
+    }
+@keyframes move-from-left {
+    from{transform: translatex(-500 px);}
+    to {transform: translatex(250%);}
+}
+h1, h5 {
+    font-size: 120%;
+}
+    
+}
+
+/* ----------------------------
+-------Desktop size style-------
+------------------------------- */
+@media (min-width: 1200px) {
+
+.text-center {
+    margin-top: 5rem;
+    /* margin-left: 15rem; */
+}
+.text {
+    animation: move-from-right 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes move-from-right {
+    from{transform: translatex(-1500 px);}
+    to {transform: translatex(250%);}
+}
+h5 {
+    font-size: 150%;   
+}
+h1 {
+    font-size: 40pt;
+}
+    
 }
