@@ -1,0 +1,56 @@
+/* Styling body elements */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    box-sizing: border-box;
+    font-size: 13pt;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* removing the lists styles */
+.navbar{
+    list-style-type: none;
+}
+
+.nav-link {
+    color:black;
+    margin-left: 1rem;
+}
+
+
+.navbar a:hover {
+    border-bottom: solid 3px #D49E8D;
+    color: black;
+}
+
+
+
+footer {
+    background-color: #D49E8D;
+    display: flex;
+
+}
+
+.logo {
+    display: block;
+    float: right;
+    width: 20px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+.copyright {
+    color: white;
+    font-size: 11pt;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+    .social-media {
+        position: absolute;
+        right: 10px;
+        margin-top: 1.5rem;
+    }

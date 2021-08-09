@@ -26,10 +26,7 @@ body{
     color: black;
 }
 
-img {
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
+.my-pic {
     margin-top: 2rem;
     width: 70%;
     height: auto;
@@ -47,59 +44,6 @@ h4 {
     background-color: #F3F0E6;
     padding: 2rem;
     font-size: 14pt;
-}
-
-.style {
-    margin: auto;
-    width: 80%;
-    display: block;
-    border-radius: 0.6rem;
-    background-color: #F7F4EB;
-    border: 3px solid #D8CEAE;
-    margin-top: 2rem;
-    padding: 0.5rem;  
-}
-
-h5 {
-    color: #683B2B;
-    font-size: 24pt;
-    font-weight: 400;
-    margin-top: 2rem;
-
-}
-
-button {
-    margin: auto;
-    background-color: #D6B894;
-    border-radius: 0.6rem;
-    border:none;
-    color: white;
-    margin-top: 2rem;
-    text-align: left;
-    margin-bottom: 2rem;
-    padding: 5px 10px 5px 10px;
-}
-
-footer {
-    background-color: #D49E8D;
-    display: flex;
-
-}
-
-.logo {
-    display: block;
-    float: right;
-    width: 25px;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
-    
-}
-
-.copyright {
-    color: white;
-    font-size: 11pt;
-    margin-top: 2rem;
-    margin-left: 2rem;
 }
 
 .row img {
@@ -124,8 +68,75 @@ footer {
     to {transform: translatex(15%);}
     }
 
-    .form button {
-        margin-left: 3.5rem;
+.style {
+    margin: auto;
+    width: 80%;
+    display: block;
+    border-radius: 0.6rem;
+    background-color: #F7F4EB;
+    border: 3px solid #D8CEAE;
+    margin-top: 2rem;
+    padding: 0.5rem;  
+}
+
+h5 {
+    color: #683B2B;
+    font-size: 24pt;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-left: 3rem;
+
+}
+
+.form>p {
+    margin-left: 3rem;
+}
+
+
+button {
+    margin: auto;
+    background-color: #D6B894;
+    border-radius: 0.6rem;
+    border:none;
+    color: white;
+    margin-top: 2rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    padding: 5px 10px 5px 10px;
+    margin-left: 3.5rem;
+}
+button:hover {
+    background-color: #D49E8D ;
+    transform: scale(90%);
+
+}
+
+footer {
+    background-color: #D49E8D;
+    display: flex;
+
+}
+
+.logo {
+    display: block;
+    float: right;
+    width: 20px;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+.copyright {
+    color: white;
+    font-size: 11.5pt;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+    .social-media {
+        position: absolute;
+        right: 10px;
+        margin-top: 1.5rem;
     }
 
 /* ---------------------------
@@ -165,7 +176,7 @@ footer {
     grid-template-columns: 1fr 1fr ;
 
   }
-img {
+.my-pic {
       width: 75%;
   }
 .about {

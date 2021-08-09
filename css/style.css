@@ -63,15 +63,12 @@ h1 {
 @media (min-width: 768px) {
 
 .text-center {
-        margin-top: 12rem;
-        margin-left: 9rem;
+        margin-top: 10rem;
+        margin-left: 3rem;
     }
 @keyframes move-from-left {
     from{transform: translatex(-500 px);}
-    to {transform: translatex(250%);}
-}
-h1, h5 {
-    font-size: 120%;
+    to {transform: translatex(100%);}
 }
     
 }
