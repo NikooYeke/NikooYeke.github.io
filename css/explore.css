@@ -9,30 +9,144 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-/* removing the lists styles */
-.navbar{
+/* Removing defult styles */
+a {
+    text-decoration: none;
+}
+.navbar, .graphic-text{
     list-style-type: none;
 }
+/* Add commmon styles to all texts */
+.graphic-text, .web-text, .ux-text, .cms-text h5 {
+    display: block;
+    margin: auto;
+    color: white;
+    font-weight: 700;
+    padding: 1rem;
+    width: 45%;
+    text-align: center;
+}
 
+/* Styling the navbar */
 .nav-link {
     color:black;
     margin-left: 1rem;
 }
-
 
 .navbar a:hover {
     border-bottom: solid 3px #D49E8D;
     color: black;
 }
 
+/* styling the Graphic part */
+.graphic-back {
+    display: block;
+    margin: auto;
+    width: 307px;
+    height: 298px;
+    background-color: #F8E4DD;
+    margin-left: 4rem;
+}
+.graphic-pic img{
+    display: block;
+    margin: auto;
+    width: 330px;
+    margin-top: -16.5rem;
+}
+.graphic-text h5 {
+    color: white;
+    background-color: #D49E8D;
+    padding: 1rem;
+    margin-top: 2.6rem;
+}
 
+/* styling the Web part */
+.web-back {
+    display: block;
+    margin: auto;
+    width: 255px;
+    height: 303px;
+    background-color: #EEE5DA;
+    margin-left: 10rem;
+}
+.web-pic img {
+    display: block;
+    margin: auto;
+    width: 261px;
+    margin-top: -17.8rem;
+}
+.web-text h5 {
+    background-color: #D6B894;
+    padding: 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    margin-right: -1rem;
+}
+.web-text a {
+    display: block;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+    margin-left: 4rem;
+}
 
+/* styling the UX part */
+.ux-back {
+    display: block;
+    margin: auto;
+    width: 307px;
+    height: 232px;
+    background-color: #F8E4DD;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+.ux-pic img {
+    display: block;
+    margin: auto;
+    width: 283px;
+    margin-top: 2rem;
+    margin-top: -13.8rem;
+}
+.ux-text h5 {
+    background-color: #D49E8D;
+    padding: 1rem;
+    font-weight: 700;
+    margin-top: -0.5rem;
+}
+
+/* styling the CMS part */
+.cms-back {
+    display: block;
+    margin: auto;
+    width: 366px;
+    height: 304px;
+    background-color: #EEE5DA;
+}
+.cms-pic img {
+    display: block;
+    margin: auto;
+    width: 277px;
+    margin-top: -18.5rem;
+}
+.cms-text h5 {
+    background-color: #D6B894;
+    padding: 1rem;
+    font-weight: 700;
+    margin-top: 1.2rem;
+}
+.cms-text a {
+    display: block;
+    text-align: center;
+    color: black;
+    font-weight: 300;
+}
+
+/* styling the footer */
 footer {
     background-color: #D49E8D;
     display: flex;
-
 }
-
 .logo {
     display: block;
     float: right;
@@ -41,16 +155,14 @@ footer {
     margin-bottom: 1rem;
     
 }
-
 .copyright {
     color: white;
     font-size: 11pt;
     margin-top: 2rem;
     margin-left: 2rem;
 }
-
-    .social-media {
-        position: absolute;
-        right: 10px;
-        margin-top: 1.5rem;
+.social-media {
+    position: absolute;
+    right: 10px;
+    margin-top: 1.5rem;
     }
