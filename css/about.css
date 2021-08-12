@@ -13,31 +13,26 @@ body{
 /* removing the lists styles */
 .navbar{
     list-style-type: none;
+    background-color: rgb(240, 238, 238);
 }
-
 .nav-link {
     color:black;
     margin-left: 1rem;
 }
-
-
 .navbar a:hover {
     border-bottom: solid 3px #D49E8D;
     color: black;
 }
-
 .my-pic {
     margin-top: 2rem;
     width: 70%;
     height: auto;
 }
-
-h4 {
+.about>h4 {
     color: #683B2B;
     font-size: 24pt;
     font-weight: 400;
 }
-
 .about {
     margin: auto;
     width: 80%;
@@ -45,29 +40,24 @@ h4 {
     padding: 2rem;
     font-size: 14pt;
 }
-
 .row img {
     animation: move-from-left 2s;
     animation-fill-mode: forwards;
-    }
-    
+    }    
 @keyframes move-from-left {        
     from{transform: translatex(-1000 px);}
     to {transform: translatex(22%);}
     }
-
 .about {
-    animation: move-from-left 3s;
+    animation: move-from-left 2s;
     animation-fill-mode: forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
     margin-left: -2rem;
-    }
-    
+    }    
 @keyframes move-from-left {        
     from{transform: translatex(-1500 px);}
     to {transform: translatex(15%);}
     }
-
 .style {
     margin: auto;
     width: 80%;
@@ -78,21 +68,16 @@ h4 {
     margin-top: 2rem;
     padding: 0.5rem;  
 }
-
-h5 {
+.text>h5 {
     color: #683B2B;
     font-size: 24pt;
     font-weight: 400;
     margin-top: 2rem;
     margin-left: 3rem;
-
 }
-
 .form>p {
     margin-left: 3rem;
 }
-
-
 button {
     margin: auto;
     background-color: #D6B894;
@@ -108,7 +93,6 @@ button {
 button:hover {
     background-color: #D49E8D ;
     transform: scale(90%);
-
 }
 
 footer {
@@ -162,7 +146,6 @@ footer {
     .form button {
         margin-left: 3.5rem;
         }
-
 }
 
 /* ---------------------------
