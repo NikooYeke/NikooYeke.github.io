@@ -272,13 +272,13 @@ button:hover {
     position: relative;
     display: inline-block;
 }
-.cms-pic>img {
+.cms-pic img {
     display: block;
     margin: auto;
     width: 58%;
     margin-top: -18.5rem;
 }
-.cms-text>h5 {
+.cms-text h5 {
     background-color: #D6B894;
     padding: 1rem;
     font-weight: 700;
@@ -290,7 +290,7 @@ button:hover {
     color: black;
     font-weight: 300;
 }
-.cms-text>a:hover {
+.cms-text a:hover {
     color: #D6B894;
 }
 
