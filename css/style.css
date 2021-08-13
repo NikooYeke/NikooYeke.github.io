@@ -52,7 +52,7 @@ picture {
     animation-fill-mode: forwards;
 }
 @keyframes move-from-right {
-    from{transform: translatex(-1500 px);}
+    from{transform: translatex(-500px);}
     to {transform: translatex(70%);}
 }
 /* -------------------------
@@ -80,19 +80,18 @@ picture {
     animation-fill-mode: forwards;
     }    
 @keyframes move-from-left {        
-    from{transform: translatex(-1000 px);}
+    from{transform: translatex(-500px);}
     to {transform: translatex(22%);}
     }
 .about {
     animation: move-from-left 2s;
     animation-fill-mode: forwards;
-    animation-delay: 1s;
     margin-left: -2rem;
     }   
-@keyframes move-from-left {        
-    from{transform: translatex(-1500 px);}
+/* @keyframes move-from-left {        
+    from{transform: translatex(-500px);}
     to {transform: translatex(15%);}
-    }
+    } */
 .style {
     margin: auto;
     width: 80%;
@@ -130,7 +129,6 @@ button {
 }
 button:hover {
     background-color: #D49E8D ;
-    transform: scale(90%);
 }
 /* -------------------
    EXPLORE PAGE-MOBILE 
@@ -296,7 +294,7 @@ button:hover {
  /* ----------------
  GRAPHIC PAGE-MOBILE
  ------------------- */
- .graphic-page h5 {
+ .header-page h5 {
     margin-top: 3rem;
     text-align: center;
     background-color: #D49E8D;
@@ -334,6 +332,45 @@ button:hover {
     text-align: left;
     font-size: 13pt;
 }
+
+/* -----------------
+   UX/UI PAGE-MOBILE 
+   ------------------*/
+.pnwx-pic img, .penny-pic img,
+.tim-pic img {
+    width: 70%;
+    display: block;
+    margin-top: 1.5rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.pnwx-text, .penny-text,
+.tim-text {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.pnwx-text h6, .penny-text h6,
+.tim-text h6 {
+    text-align: left;
+    font-size: 16pt;
+    font-weight: 500;
+    margin-top: 2rem;
+    color: #683B2B;
+}
+.pnwx-text p, .penny-text p,
+.tim-text p {
+    display: inline-block;
+    text-align: left;
+    font-size: 13pt;
+}
+.pnwx-text a:hover {
+    color: #D6B894;
+}
+.tim-text a:hover {
+    color: #D6B894;
+}
+
 /* Styling the footer */
 footer {
     background-color: #D49E8D;
@@ -372,7 +409,7 @@ footer {
     margin-left: 3rem;
     }
 @keyframes move-from-right {
-    from{transform: translatex(-1500 px);}
+    from{transform: translatex(-500px);}
     to {transform: translatex(100%);}
 }
 /* ----------
@@ -390,7 +427,7 @@ footer {
     margin-left: 2rem;   
 }
 @keyframes move-from-left {        
-    from{transform: translatex(-1500 px);}
+    from{transform: translatex(-500px);}
     to {transform: translatex(15%);}
     }
 .form button {
@@ -418,7 +455,7 @@ footer {
     animation-fill-mode: forwards;
 }
 @keyframes move-from-right {
-    from{transform: translatex(-1500 px);}
+    from{transform: translatex(-500px);}
     to {transform: translatex(250%);}
 }
 .text-center>h5 {
@@ -554,6 +591,7 @@ footer {
 /* -----------------------
    GRAPHIC PAGE-DESKTOP
    ---------------------- */
+
 .graphic-page {
     width: 50%;
 }
@@ -561,24 +599,48 @@ footer {
 .golizhe-text {
     margin-right: 15%;
 }
-.gol-pic {
-    grid-area: gol;
-}
-.goli-pic {
-    grid-area: goli;
-}
-.golizhe-text {
-    grid-area: text;
-}
+
 .golizhe {
     display: grid;
-    /* grid-template-columns: 1fr 1fr; */
-    grid-template-areas:
-                         'gol text'
-                         'gol goli';
+    grid-template-columns: 1fr 1fr;
+}
+.goli-pic img {
+    width: 65%;
+    margin-left: 85%;
+    margin-top: -40%;
 }
 .golizhe-pic {
     width: 120%;
+}
+.poster {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+}
+.poster img {
+    width: 84%;
+    margin-left: 18%;
+}
+.poster-text {
+    margin-top: 70%;
+}
+.blackr-pic {
+    display: flex;
+    flex-direction: row;
+}
+.picb img{
+    width: 90%;
+    margin-left: 18%;
+}
+.picbr img {
+    width: 80%;
+    margin-right: 18%;
+}
+.blackr-text {
+    width: 40%;
+    margin-top: -10%;
+    margin-left: 9%;
+    margin-bottom: 10%;
 }
 
     
