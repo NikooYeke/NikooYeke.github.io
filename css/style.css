@@ -28,30 +28,19 @@ a {
 /* ------------------
    HOME PAGE-MOBILE  
 ------------------ */
-.home-pic {
+.home-pic img {
     width: 100%;
     height: auto;
     position: relative;
 }
-.text-center {
-    color: wheat;
-    margin-top: 3rem;
-}
-.text {
-    text-align: center;
-}
+
 .text-center h1 {
-    font-size: 36pt;
+    font-size: 24pt;
     font-weight: 600;
 }
-/* Adding movement animation to the text */
-.text {
-    animation: move-from-right 2s;
-    animation-fill-mode: forwards;
-}
-@keyframes move-from-right {
-    from{transform: translatex(-500px);}
-    to {transform: translatex(70%);}
+
+.text-center {
+    margin-top: 5rem;
 }
 /* -------------------------
        ABOUT PAGE-MOBILE   
@@ -445,26 +434,28 @@ footer {
 /* ------------
     HOME PAGE 
     -----------*/
+.home-pic {
+    width: 100%;
+}    
 .text-center {
-    margin-top: -5rem;
+    margin-left: 10rem;
+    margin-top: -15rem;
 }
 .text {
     text-align: left;
 }
-.text {
+.text-center h5 {
+    font-size: 120%;
+}
+/* .text {
     animation: move-from-right 2s;
     animation-fill-mode: forwards;
 }
 @keyframes move-from-right {
     from{transform: translatex(-500px);}
     to {transform: translatex(250%);}
-}
-.text-center h5 {
-    font-size: 150%;   
-}
-.text-center h1 {
-    font-size: 40pt;
-}
+} */
+
 /* ------------------
    ABOUT PAGE-DESKTOP 
    ------------------*/
