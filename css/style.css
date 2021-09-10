@@ -151,7 +151,7 @@ button:hover {
     position: relative;
     display: inline-block;
 }
-.graphic-pic>img{
+.graphic-pic img{
     display: block;
     margin: auto;
     width: 70%;
@@ -423,8 +423,10 @@ footer {
 /* -------------------
   EXPLORE PAGE-TABLET 
   -------------------*/
-
+.graphic-pic img {
+    width: 50%;
 }
+
 
 /* ----------------------------
 -------Desktop size style-------
@@ -683,6 +685,5 @@ footer {
 .tim-text {
     margin-top: 20%;
 }
-
-    
+}   
 }
